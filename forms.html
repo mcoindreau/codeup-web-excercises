@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register With Us</title>
+</head>
+<body>
+    <form action="https://requestb.in/1h0h3go1" method="POST">
+        <label for="email">Email: </label>
+        <input id="email" name="email"> <!-- All form elements need a name, otherwise will be ignored by the server-->
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="bio">Bio: </label><br>
+        <textarea rows="4" cols="50" id="bio" name="bio">
+
+        </textarea>
+        <br><br>
+        <!--<div>
+            <label>How did you hear about us?</label>
+            <br>
+            <label>
+                <input type="radio" name="type" value="billboard" checked>
+                Billboard
+            </label>
+            <label>
+                <input type="radio" name="type" value="radio advertisement">
+                Radio Advertisement
+            </label>
+            <label>
+                <input type="radio" name="type" value="internet advertisement">
+                Internet Advertisement
+            </label>
+            <label>
+                <input type="radio" name="type" value="other">
+                Other
+            </label>
+        </div>-->
+
+        <div>
+            <label>How did you hear about us?</label>
+            <label>
+                <input type="checkbox" name="languages" value="billboard">Billboard
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="radio-advertisement" checked>Radio Advertisement
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="internet-advertisement">Internet Advertisement
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="other">Other
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="browser">Select your browser</label>
+            <select name="browser" id="browser">
+                <option value="">--</option>
+                <option value="safari">Safari</option>
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+            </select>
+        </div>
+
+        <!--<div>
+            <input type="hidden" name="identifier" value="identifier">
+        </div>-->
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
