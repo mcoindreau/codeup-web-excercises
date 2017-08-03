@@ -1,3 +1,56 @@
-h1 {
-    color: #9d0000;
+@import url('https://fonts.googleapis.com/css?family=Mada');
+
+body {
+    background-color: #e7fae5;
+    background-image: url('../img/background-abstract.jpg');
+    font-family: 'Mada', sans-serif;
+}
+
+#container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+    color: #165c6c;
+}
+li  {
+    list-style-type: square;
+}
+h1.fancy-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.fancy-header{
+    text-decoration: underline;
+}
+
+table {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #B3BCC3;
+}
+
+td {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #B3BCC3;
+}
+
+a{
+    text-decoration: none;
+    color: #165c6c;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #28c4e0;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: #7632b7;
 }

@@ -1,0 +1,73 @@
+body {
+    background-color: #e6ecf0;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #3b94d9;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid #3B94D9;
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid #AAA;
+    background-color: ;
+    background-image: ;
+
+}
+
+.highlight {
+    background-color: #3B94D9;
+    color: white;
+}
+
+.regular {
+    background-color: #FFF;
+    color: #3B94D9;
+}
+
+/* REMOVE DUPLICATION BY ADDING TOGETHER
+header {
+    background-color: #fff;
+}
+.panel {
+    background-color: #fff;
+}*/
+
+header,
+.panel {
+    background-color: #fff;
+}
+
+.nav-item {
+    font-weight: bold;
+    color: #B3BCC3;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('../img/img-01.jpg');
+    height: 300px;
+    border: 1px solid blue;
+}
+.hero > img {
+    border-radius: 100px;
+}
+
+#location {
+    list-style-image: url("http://via.placeholder.com/13x13");
+}
