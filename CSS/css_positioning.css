@@ -25,7 +25,7 @@ h1{
     /*clear:left;*/
 /*}*/
 
-.box:nth-child(3n+4){
+.box:nth-child(2n+3){
     clear: left;
 }
 
@@ -48,11 +48,4 @@ h1{
 #box-violet {
     background-color: violet;
 }
-#box-teal {
-    background-color: teal;
-}
-#box-purple {
-    background-color: purple;
-}#box-pink {
-     background-color: pink;
- }
+                                                                                                                                             <div id="box-purple
