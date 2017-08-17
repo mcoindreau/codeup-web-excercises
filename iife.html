@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IIFE</title>
+</head>
+<body>
+<h2>IIFE</h2>
+<script>
+    var global = "I'm Global";
+
+    console.log(global);
+
+    var global = "Something else";
+
+    console.log(global);
+
+    // define a function and immediately invoke (call/reference) it
+    (function () {
+        var global = "I'm Global";
+
+        console.log(global);
+    })();
+
+
+</script>
+</body>
+</html>
