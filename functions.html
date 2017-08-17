@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+</head>
+<body>
+<h3>Functions</h3>
+<script>
+    function innerScope(){
+        var phone = "210-XXX-XXXX";
+    }
+
+    function getAddress() {
+        var address = "Street";
+        return address;
+    }
+    innerScope();
+
+    var address = getAddress() + "zip, 78209";
+//    console.log(address)
+    console.log(getAddress());
+</script>
+
+</body>
+</html>
