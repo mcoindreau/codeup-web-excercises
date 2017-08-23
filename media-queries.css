@@ -1,0 +1,205 @@
+body{
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+ /*for mobile screen */
+
+@media screen and (min-width: 360px) {
+    body{
+        /*width: 90%;*/
+        width: 339px;
+        display: block;
+        margin: auto;
+    }
+    .hidden-on-mobile{
+        background-color: #CCFFFF;
+        width: 339px;
+        height: 30px;
+        border: 2px solid #ccc;
+        /*margin-top: 12px;*/
+        padding-top: 15px;
+        font-size: 80%;
+        vertical-align: top;
+        color: #CCC;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+    }
+    .hidden-on-mobile a{
+        color: #000;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 250%;
+    }
+    h1, .hidden-on-mobile, nav{
+        text-align: center;
+    }
+    .nav-links{
+        list-style-type: none;
+        padding:0;
+    }
+    .nav-links li{
+        width: 339px;
+        list-style-type: none;
+        line-height: 18px;
+        padding: 15px 100px;
+        box-sizing: border-box;
+        display: block;
+        margin: 10px auto;
+        background-color: #ccc;
+    }
+    .nav-links a{
+        padding: 10px;
+        background-color: #ccc;
+    }
+    .header-img>img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    footer p{
+        width: 60%;
+        float: left;
+    }
+    .social-icon{
+        padding: 0;
+        margin: 0;
+    }
+    #social-media-links{
+        float: right;
+        padding: 0;
+        margin: 0;
+        width:35%;
+    }
+    #social-media-links ul{
+        padding: 0;
+        margin: 0;
+    }
+    .social-icons li{
+        list-style-type: none;
+        float: left;
+        padding: 2%;
+        margin: 0;
+    }
+    .social-icons img{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    footer p{
+        font-size: small;
+        width: 30%;
+        white-space: nowrap;
+    }
+}
+
+/* for desktop screen */
+
+@media screen and (min-width: 768px) {
+    body{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .hidden-on-mobile{
+        display: none;
+    }
+
+    h1{
+        float: left;
+        margin: 0;
+        font-size: 200%;
+    }
+
+    .nav-links {
+        /*display: inline;*/
+        float: right;
+        list-style-type: none;
+        clear: right;
+    }
+
+    .nav-links li {
+        padding: 0px;
+        background-color: transparent;
+        display: inline;
+        margin: auto 10px;
+        margin-right: 0px;
+        /*vertical-align: bottom;*/
+    }
+
+    .nav-links a {
+        background-color: transparent;
+        padding: 0px;
+
+    }
+    .header-img{
+        margin-top: 20px;
+        /*text-align: center;*/
+        /*display: block;*/
+        /*margin:  auto;*/
+    }
+    .header-img>img{
+        width: 100%;
+        clear: both;
+        display: block;
+        margin: auto;
+    }
+    .main{
+        float: left;
+        padding-right: 7%;
+        /*width: 55%;*/
+    }
+    .sub-section{
+        float: left;
+        /*padding-left: 5%;*/
+        /*width: 30%;*/
+        font-style: italic;
+    }
+    section{
+        margin-bottom: 40px;
+    }
+    footer{
+        clear: left;
+        /*float: left;*/
+        /*margin-top:*/
+        /*position: relative;*/
+        /*position: absolute;*/
+        /*bottom: 0px;*/
+    }
+    footer p{
+        width: 30%;
+        font-size: smaller;
+        float: left;
+    }
+    .social-icon{
+        padding: 0;
+        margin: 0;
+    }
+    #social-media-links{
+        float: right;
+        padding: 0;
+        margin: 0;
+        width:20%;
+    }
+    #social-media-links ul{
+        padding: 0;
+        margin: 0;
+    }
+    .social-icons li{
+        list-style-type: none;
+        float: left;
+        padding: 5%;
+        margin: 0;
+    }
+    .social-icons img{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+}
