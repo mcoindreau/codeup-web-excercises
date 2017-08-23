@@ -1,5 +1,5 @@
 /** {*/
-    /*border: 1px solid gray;*/
+    /*border: 1px solid red;*/
 /*}*/
 .container {
     margin: 0 auto;
@@ -63,6 +63,7 @@
 .column.two-third {
     width: 66.67%;
     border: 1px solid #e4faf0;
+    background: pink;
     background: #a1aeee;
 }
 .column.two-fourth {
