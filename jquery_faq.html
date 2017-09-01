@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ</title>
+    <style type="text/css">
+        body {
+            background: #dcf1f9;
+            font-family: 'Montserrat', sans-serif;
+        }
+        h2{
+            text-align: center;
+            color: #404040;
+        }
+        #main {
+            margin: 20px;
+            padding-top: 20px;
+            color: #404040;
+        }
+        dt {
+            line-height: 24px;
+            margin: 5px;
+        }
+        dd {
+            line-height: 24px;
+            margin: 5px 30px;
+        }
+        button {
+            background: #3498db;
+
+            -webkit-border-radius: 20;
+            -moz-border-radius: 20;
+            border-radius: 20px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 14px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background: #3cb0fd;
+            text-decoration: none;
+        }
+
+        .invisible{
+            display: none;
+        }
+        .highlighted {
+            background-color: #fdffe6;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" class="centered important">
+        <h2>10 National Park FAQs</h2>
+        <dl class="dl-horizontal">
+            <dt><strong>Question 1:</strong></dt>
+            <dd class="invisible">Sequoia National Park, <span class="important hidden">California is home to the largest living single-stem tree in the world - </span>the wonderfully named General Sherman.</dd>
+            <dt><strong>Question 2:</strong></dt>
+            <dd class="invisible">The highest point in North America is Mount McKinley (aka Denali) standing at 20,320ft (6193.5m).</dd>
+            <dt><strong>Question 3:</strong></dt>
+            <dd class="invisible">The longest cave system in the world is at Mammoth Cave National Park, Kentucky.</dd>
+            <dt><strong>Question 4:</strong></dt>
+            <dd class="invisible">Two national parks are located north of the Arctic Circle: <span class="important hidden">the Gates of the Arctic National Park and the Kobuk Valley National Park, both in Alaska.</span></dd>
+            <dt><strong>Question 5:</strong></dt>
+            <dd class="invisible important hidden">The largest park is Wrangell-St. Elias National Park and Preserve, Alaska.</dd>
+            <dt><strong>Question 6:</strong></dt>
+            <dd class="invisible">The smallest property owned by the National Parks Service is the Thaddeus Kosciuszko National Memorial</dd>
+            <dt><strong>Question 7:</strong></dt>
+            <dd class="invisible">White Sands National Monument spans more than 176,000 acres of New Mexico desert and contains the largest gypsum dune fields in the world.</dd>
+            <dt><strong>Question 8:</strong></dt>
+            <dd class="invisible">The oldest national park is Yellowstone, Wyoming which was founded in 1872.</dd>
+            <dt><strong>Question 9:</strong></dt>
+            <dd class="invisible">The “Old Faithful” geyser at Yellowstone is so-called because visitors can rely on it to erupt regularly.</dd>
+            <dt><strong>Question 10:</strong></dt>
+            <dd class="invisible">The deepest lake in the United States is in Oregon - Crater Lake.</dd>
+            </dt>
+        </dl>
+        <button href="#" id="highlight-important">Click for answers</button>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery_faq.js"></script>
+</body>
+</html>
