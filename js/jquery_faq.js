@@ -60,4 +60,29 @@ $(document).ready(function (){
     function makeFirstSiblingBlue () {
         $(this).parent().children().first().css('color', '#5E96FF' );
     }
+
+    $('#national-parks-toggle').click(function() {
+        $('#national-parks').hide();
+    });
+
+    $("#close").click(function(){
+        //$(this).hide(); //only hides the X span
+        $(this).parent().hide(); // hides the entire thing
+        //console.log(this)
+    });
+
+    var facts = $(".facts");
+
+    facts.hide();
+
+    //hides the lists for National Park facts
+    facts.prev().click(function () {
+        //$(this).parent().hide(); //always hides facts
+        $(this).next().slideToggle(); //toggles and hides content
+    });
+
+    setTimeout(function () {
+        $("#register").fadeIn();
+    }, 2000);
+
 });
