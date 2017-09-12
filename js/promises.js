@@ -30,7 +30,8 @@ function getCommit (username) {
 
     let url = `https://api.github.com/users/${username}/events`;
 
-    return fetch(url, {headers: {'Authorization': 'token a93c512eb3c7631d680e608862fdbbb23216a231'}})
+    return fetch(url, {headers: {'Authorization': 'token --MY TOKEN--'}}) //<!-DO NOT PUSH WITH TOKEN
+
 
         .then((response) => response.json())
         .then((repos) => repos.map((repo) => repo.pushed_at));
